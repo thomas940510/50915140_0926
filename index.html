@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>卡牌遊戲</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="gameContainer">
+        <h1>卡牌配對遊戲</h1>
+        <div>
+            <label for="themeSelect">選擇主題:</label>
+            <select id="themeSelect">
+                <option value="finger">數字(手指版)</option>
+                <option value="arabic">數字(阿拉伯數字版)</option>
+            </select>
+        </div>
+        <div id="timer">10</div>
+        <button id="startGame">開始遊戲</button>
+        <button id="flipAllFront">全部翻到正面</button>
+        <button id="flipAllBack">全部翻到背面</button>
+        <div id="cardContainer"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
